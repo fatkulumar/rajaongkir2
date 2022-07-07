@@ -28,20 +28,26 @@ Gunakan aplikasi postman atau sejenis untuk mencoba aplikasi laravel tersebut
 - Isikan di 3 KEY beserta VALUE : name, email, password
 - Copy dan paste link tersebut pada kolom request URL di aplikasi postman
     > http://localhost:8000/api/login
+- KLik send
 
 ## Logout
 - Copy dan paste link tersebut pada kolom request URL di aplikasi postman
     > http://localhost:8000/api/login
+- KLik send
 
 ## Data
 
 - Mendapatkan data kota berdasarkan ID  
     > http://127.0.0.1:8000/api/search/cities/{id}
+- KLik send
 - Mendapatkan data provinsi berdasarkan ID 
     > http://127.0.0.1:8000/api/search/provinces/{id}
+- KLik send
 
 ## Tambah data database dari rajaongkir.com
 - Data Kota
     > php artisan add:city
+- KLik send
 - Data provinsi
     > php artisan add:province
+- KLik send
