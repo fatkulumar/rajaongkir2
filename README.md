@@ -17,7 +17,7 @@ ini adalah api data kota & kabupaten dari rajaongkir.com
 ## Register Lewat API
 Gunakan aplikasi postman atau sejenis untuk mencoba aplikasi laravel tersebut
 - Pilih tab Body dan klik from-data
-- Isikan di 3 KEY beserta VALUE : name, email, password
+- Isikan di KEY beserta VALUE : name, email, password
 - Copy dan paste link tersebut pada kolom request URL di aplikasi postman
     > http://localhost:8000/api/register
 - KLik send
