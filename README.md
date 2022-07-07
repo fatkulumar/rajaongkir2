@@ -19,7 +19,8 @@ Gunakan aplikasi postman atau sejenis untuk mencoba aplikasi laravel tersebut
 - Pilih tab Body dan klik from-data
 - Isikan di KEY beserta VALUE : name, email, password
 - Copy dan paste link tersebut pada kolom request URL di aplikasi postman
-    > http://localhost:8000/api/register
+- Pilih POST
+    > http://127.0.0.1:8000/api/register
 - KLik send
 
 ## Login
@@ -27,20 +28,24 @@ Gunakan aplikasi postman atau sejenis untuk mencoba aplikasi laravel tersebut
 - di tab headers isikan KEY : Accept dan VALUE : application/json
 - Isikan di 3 KEY beserta VALUE : name, email, password
 - Copy dan paste link tersebut pada kolom request URL di aplikasi postman
-    > http://localhost:8000/api/login
+- Pilih POST
+    > http://127.0.0.1:8000/api/login
 - KLik send
 
 ## Logout
 - Copy dan paste link tersebut pada kolom request URL di aplikasi postman
-    > http://localhost:8000/api/login
+_ Pilih POST
+    > http://127.0.0.1:8000/api/logout
 - KLik send
 
 ## Data
 
 - Mendapatkan data kota berdasarkan ID  
+- Pilih GET
     > http://127.0.0.1:8000/api/search/cities/{id}
 - KLik send
 - Mendapatkan data provinsi berdasarkan ID 
+- Pilih GET
     > http://127.0.0.1:8000/api/search/provinces/{id}
 - KLik send
 
